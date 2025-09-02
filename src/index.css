@@ -149,7 +149,7 @@
 @layer components {
   /* Hero Typography */
   .hero-name {
-    @apply text-6xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter text-primary;
+    @apply text-6xl lg:text-7xl lg:text-8xl font-black uppercase tracking-tighter text-primary;
     letter-spacing: -0.02em;
   }
   
