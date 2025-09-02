@@ -18,6 +18,14 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+			},
+			spacing: {
+				'18': '4.5rem',
+				'88': '22rem',
+				'128': '32rem',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
