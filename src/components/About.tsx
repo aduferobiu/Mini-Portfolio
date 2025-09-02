@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import profileImage from '@/assets/profile-image.jpg';
+import profileImage from '@/assets/Robiu Photo Full.jpg';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,7 +30,7 @@ const About = () => {
     <section id="about" className="section-padding bg-background">
       <div className="container mx-auto container-padding">
         <div className={`fade-in ${isVisible ? 'visible' : ''} text-center max-w-4xl mx-auto`}>
-          <h2 className="section-title">About</h2>
+          <h2 className="section-title ml-56">About</h2>
           <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <div className="flex-shrink-0">
               <img

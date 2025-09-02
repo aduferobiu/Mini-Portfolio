@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="text-center container-padding">
         <div className={`fade-in ${isVisible ? 'visible' : ''}`}>
           <h1 className="hero-name mb-6">
-            ALEX JORDAN
+            ADUFE ROBIU
           </h1>
           <p className="hero-description mx-auto">
             Product Designer crafting digital experiences that feel simple, modern, and human
